@@ -104,7 +104,7 @@
     function getNum(num) {
         num = num + '';
         if(num.length == 1){
-          return num;
+          return num == 0? 5 : num;
         }
         var s = 0;
         for(var i=0; i<num.length; i++){
